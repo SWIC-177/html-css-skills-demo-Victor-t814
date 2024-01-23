@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "HTML-CSS Template",
+  "steps": [
+    {
+      "file": ".vscode/extensions.json",
+      "description": "You should see a prompt in the bottom right **if** you are missing any of these extentions.",
+      "line": 2
+    },
+    {
+      "file": ".vscode/settings.json",
+      "description": "Summarily, these settings automate the process of saving and formatting your code.",
+      "line": 1
+    },
+    {
+      "file": ".stylelintrc.json",
+      "description": "This is a linter that helps enforce 'best practices' whenever you are writing CSS 💄.",
+      "line": 1
+    },
+    {
+      "file": "package.json",
+      "description": "Because this is the name of the script listed here, in your terminal, you did `npm run dev` to 🔥 up the [Vite](https://vitejs.dev/) server.",
+      "line": 7
+    }
+  ]
+}

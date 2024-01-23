@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "htmlhint.vscode-htmlhint",
+    "stylelint.vscode-stylelint",
+    "usernamehw.errorlens",
+    "vsls-contrib.codetour"
+  ]
+}
