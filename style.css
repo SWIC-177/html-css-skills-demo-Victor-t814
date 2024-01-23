@@ -1,0 +1,9 @@
+h1 { background-image: url('banner.jpg');
+    background-repeat: no-repeat; 
+background-attachment: fixed;
+background-size: cover;
+background-color: black;
+       color: #221811;
+	   font-family: Tahoma, Arial, sans-serif; 
+}
+body {background-color: aquamarine;}
