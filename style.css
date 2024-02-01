@@ -2,14 +2,26 @@ body {
   background-color: aquamarine;
 }
 
+#wrapper {
+  background-color: aquamarine;
+  color: black;
+  width: 80%;
+  margin: auto;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
 h1 {
-  background-image: url("banner.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: black;
-  color: #221811;
-  font-family: Tahoma, Arial, sans-serif;
+  color: black;
+  width: 90%;
+  margin: auto;
+  min-width: 960px;
+  max-width: 1200px;
+  height: 200px;
+}
+
+h1 .content-container {
+  padding: 20px; /* Adjust the padding as needed */
 }
 
 p {
