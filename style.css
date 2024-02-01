@@ -1,5 +1,5 @@
 body {
-  background-color: grey;
+  background-color: #333;
 }
 
 #wrapper {
@@ -11,22 +11,9 @@ body {
   max-width: 1200px;
 }
 
-h1 {
-  color: black;
-  width: 90%;
-  margin: auto;
-  min-width: 960px;
-  max-width: 1200px;
-  height: 200px;
-}
-
-h1 .content-container {
-  padding: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+header {
+  border-bottom: black 2px solid;
+  margin-bottom: 20px;
 }
 
 p {
@@ -34,7 +21,7 @@ p {
 }
 
 nav {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 nav ul {
@@ -53,9 +40,6 @@ nav a {
   font-weight: bold;
   display: inline-block;
   border: 2px solid white;
-  background-image: url("sprite.png");
-  background-repeat: no-repeat;
-  background-position: right 0;
 }
 
 nav a:link {
@@ -77,4 +61,17 @@ footer {
   clear: right;
   background-color: silver;
   padding: 20px;
+}
+
+.flex {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
