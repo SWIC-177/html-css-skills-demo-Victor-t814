@@ -1,9 +1,9 @@
 body {
-  background-color: aquamarine;
+  background-color: grey;
 }
 
 #wrapper {
-  background-color: aquamarine;
+  background-color: silver;
   color: black;
   width: 80%;
   margin: auto;
@@ -21,7 +21,12 @@ h1 {
 }
 
 h1 .content-container {
-  padding: 20px; /* Adjust the padding as needed */
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 p {
@@ -70,6 +75,6 @@ footer {
   font-size: 70%;
   text-align: center;
   clear: right;
-  background-color: aquamarine;
+  background-color: silver;
   padding: 20px;
 }
