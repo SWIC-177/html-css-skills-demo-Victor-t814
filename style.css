@@ -11,3 +11,45 @@ h1 {
   color: #221811;
   font-family: Tahoma, Arial, sans-serif;
 }
+
+p {
+  margin-bottom: 20px;
+}
+
+nav {
+  margin-top: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 10px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+  display: inline-block;
+  border: 2px solid white;
+  background-image: url("sprite.png");
+  background-repeat: no-repeat;
+  background-position: right 0;
+}
+
+nav a:link {
+  color: white;
+}
+
+nav a:visited {
+  color: black;
+}
+
+nav a:hover {
+  color: black;
+  background-position: right -100px;
+}
