@@ -65,3 +65,11 @@ nav a:hover {
   color: black;
   background-position: right -100px;
 }
+
+footer {
+  font-size: 70%;
+  text-align: center;
+  clear: right;
+  background-color: aquamarine;
+  padding: 20px;
+}
