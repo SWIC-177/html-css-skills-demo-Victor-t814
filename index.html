@@ -7,7 +7,7 @@
     <title>Victor Trail</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="tx bg-gray-700 font-sans">
+  <body class="tx bg-gray-700 font-sans text-white">
     <header class="bg-silver-700 flex items-center gap-x-4 p-8 text-white">
       <img
         src="me.jpg"
@@ -70,19 +70,22 @@
         </div>
       </fieldset>
 
-      <fieldset class="mb-4">
+      <fieldset class="mb-4 text-white">
         <form class="space-y-4">
           <label for="name" class="block">Name</label>
-          <input type="text" id="name" class="w-full border p-2" />
+          <input type="text" id="name" class="w-full border p-2 text-black" />
 
           <label for="email" class="block">Email</label>
-          <input type="email" id="email" class="w-full border p-2" />
+          <input type="email" id="email" class="w-full border p-2 text-black" />
 
           <label for="phone" class="block">Phone</label>
-          <input type="tel" id="phone" class="w-full border p-2" />
+          <input type="tel" id="phone" class="w-full border p-2 text-black" />
 
           <label for="message" class="block">Message</label>
-          <textarea id="message" class="w-full border p-2"></textarea>
+          <textarea
+            id="message"
+            class="w-full border p-2 text-black"
+          ></textarea>
         </form>
       </fieldset>
 
@@ -92,7 +95,11 @@
           value="Submit!"
           class="cursor-pointer bg-blue-500 p-2 text-white"
         />
-        <input type="reset" class="cursor-pointer bg-gray-500 p-2 text-white" />
+        <input
+          type="reset"
+          value="Reset"
+          class="cursor-pointer bg-gray-500 p-2 text-white"
+        />
       </div>
     </main>
     <footer class="mt-4 p-4 text-sm text-gray-700">
