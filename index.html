@@ -1,78 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML-CSS Template</title>
+    <title>Victor Trail</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <div id="wrapper">
-      <header>
-        <img src="banner.jpg" alt="banner" style="width: 100%" />
-      </header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <h2>Student</h2>
-      <tr></tr>
-      <p>
-        Hello! my name is Victor Trail, i'm 28. some of my hobbies are
-        traveling, ive been abroad several times <br />
-        hanging out width my pups, Charlie and Scooter. I enjoy reading, Im on
-        my 4th book this year!<br />
-        I like anime! some of the OG's are Naruto, and Attack on titan.<br />
-        and we like to go to concerts! I am really into music!
-      </p>
-      <img src="dog.jpg" width="150" height="175" alt="picture of dog" />
-      <main>
-        <fieldset>
-          <legend>Select Your Favorite Types of Music?</legend>
-          <input type="checkbox" name="Pop" id="Pop" /> Pop
+  <body class="tx bg-gray-700 font-sans">
+    <header class="bg-silver-800 flex items-center gap-x-4 p-8 text-white">
+      <img
+        src="me.jpg"
+        alt=""
+        width="96"
+        height="90"
+        class="shadow-white-700 rounded-full border shadow-lg"
+      />
+      <div>
+        <h1 class="text-3xl font-semibold">Victor Trail</h1>
+        <h3>Student</h3>
+      </div>
+    </header>
+    <nav class="bg-blue-500 text-white">
+      <ul class="flex space-x-4 p-4">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <p class="ml-4">
+      Hello! my name is Victor Trail, I'm 28. Some of my hobbies are traveling,
+      I've been abroad several times <br />
+      hanging out with my pups, Charlie and Scooter. I enjoy reading, I'm on my
+      4th book this year!<br />
+      I like anime! Some of the OG's are Naruto and Attack on Titan.<br />
+      and we like to go to concerts! I am really into music!
+    </p>
+    <img
+      src="dog.jpg"
+      class="ml-4 mt-4"
+      width="150"
+      height="175"
+      alt="picture of dog"
+    />
+    <main class="mt-4 p-4">
+      <fieldset class="mb-4">
+        <legend class="text-xl font-bold">
+          Select Your Favorite Types of Music?
+        </legend>
+        <div class="space-y-2">
+          <input type="checkbox" id="Pop" class="mr-2" />
+          <label for="Pop">Pop</label>
           <br />
-          <input type="checkbox" name="Classical" id="Classical" /> Classical
+          <input type="checkbox" id="Classical" class="mr-2" />
+          <label for="Classical">Classical</label>
           <br />
-          <input type="checkbox" name="Rock" id="Rock" /> Rock
+          <input type="checkbox" id="Rock" class="mr-2" />
+          <label for="Rock">Rock</label>
           <br />
-          <input type="checkbox" name="Folk" id="Folk" /> Folk
+          <input type="checkbox" id="Folk" class="mr-2" />
+          <label for="Folk">Folk</label>
           <br />
-          <input type="checkbox" name="Rap" id="Rap" /> Rap
+          <input type="checkbox" id="Rap" class="mr-2" />
+          <label for="Rap">Rap</label>
           <br />
-          <input type="checkbox" name="Other" id="Other" /> Other
-        </fieldset>
+          <input type="checkbox" id="Other" class="mr-2" />
+          <label for="Other">Other</label>
+        </div>
+      </fieldset>
 
-        <fieldset>
-          <form>
-            <label for="name">Name</label>
-            <input type="text" id="name" />
+      <fieldset class="mb-4">
+        <form class="space-y-4">
+          <label for="name" class="block">Name</label>
+          <input type="text" id="name" class="w-full border p-2" />
 
-            <label for="email">Email</label>
-            <input type="email" id="email" />
+          <label for="email" class="block">Email</label>
+          <input type="email" id="email" class="w-full border p-2" />
 
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" />
+          <label for="phone" class="block">Phone</label>
+          <input type="tel" id="phone" class="w-full border p-2" />
 
-            <label for="message">Message</label>
-            <textarea id="message"></textarea>
-          </form>
-        </fieldset>
+          <label for="message" class="block">Message</label>
+          <textarea id="message" class="w-full border p-2"></textarea>
+        </form>
+      </fieldset>
 
-        <input type="submit" value="Submit!" /> <input type="reset" />
-      </main>
-      <footer>
-        Copyright &copy; Copyright 2024 , This bio is the work of Victor Trail.
-        The contents of this bio/ disk/ website (work examples, artwork, etc.)
-        are copyrighted and all rights are reserved. Please do not copy,
-        distribute, and/or modify the works on this website without written
-        permission. Some of the exhibits, work samples, and/or service samples
-        are the proprietary of the organization whose name appears on the
-        documents. Each has granted permission for this product to be used as a
-        demonstration of my work.<br />
-      </footer>
-    </div>
+      <div class="flex space-x-4">
+        <input
+          type="submit"
+          value="Submit!"
+          class="cursor-pointer bg-blue-500 p-2 text-white"
+        />
+        <input type="reset" class="cursor-pointer bg-gray-500 p-2 text-white" />
+      </div>
+    </main>
+    <footer class="mt-4 p-4 text-sm text-gray-700">
+      Copyright &copy; 2024, This bio is the work of Victor Trail. The contents
+      of this bio/disk/website (work examples, artwork, etc.) are copyrighted
+      and all rights are reserved. Please do not copy, distribute, and/or modify
+      the works on this website without written permission. Some of the
+      exhibits, work samples, and/or service samples are the proprietary of the
+      organization whose name appears on the documents. Each has granted
+      permission for this product to be used as a demonstration of my work.<br />
+    </footer>
   </body>
 </html>
