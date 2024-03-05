@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./style.css" />
@@ -7,41 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML-CSS Template</title>
   </head>
-  <body class="items-center justify-center">
-    <div id="wrapper">
-      <header class="flex">
-        <img src="banner.jpg" alt="banner" style="width: 100%" />
+  <body class="bg-gray-700 text-white">
+    <div class="mx-auto max-w-2xl">
+      <header>
+        <img src="banner.jpg" alt="banner" class="h-full w-full" />
       </header>
-      <nav>
-        <ul>
+      <nav
+        class="mt-4 rounded-md border-black bg-gray-200 text-lg font-bold text-black"
+      >
+        <ul class="flex space-x-4 p-4">
           <li><a href="index.html">Home</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <h2>Contact Me</h2>
+      <h2 class="ml-4 mt-4 text-3xl font-bold">Contact Me</h2>
 
-      <p>Feel free to reach out to me using the contact information below:</p>
+      <p class="ml-4 mt-2">
+        Feel free to reach out to me using the contact information below:
+      </p>
 
-      <div class="contact-info">
+      <div class="contact-info ml-4 mt-4">
         <p><strong>Name:</strong> Victor Trail</p>
         <p>
           <strong>Email:</strong>
-          <a href="mailto:victor.trail001@student.swic.edu"
+          <a
+            href="mailto:victor.trail001@student.swic.edu"
+            class="text-blue-500"
             >victor.trail001@student.swic.edu</a
           >
         </p>
         <p>
-          <strong>Phone:</strong> <a href="tel:+16187919280">618-791-9280</a>
+          <strong>Phone:</strong>
+          <a href="tel:+16187919280" class="text-blue-500">618-791-9280</a>
         </p>
       </div>
-      <footer>
-        Copyright &copy; Copyright 2024 , This bio is the work of Victor Trail.
-        The contents of this bio/ disk/ website (work examples, artwork, etc.)
-        are copyrighted and all rights are reserved. Please do not copy,
-        distribute, and/or modify the works on this website without written
-        permission. Some of the exhibits, work samples, and/or service samples
-        are the proprietary of the organization whose name appears on the
-        documents. Each has granted permission for this product to be used as a
+      <footer class="mt-4 flex items-center text-sm text-white">
+        Copyright &copy; 2024, This bio is the work of Victor Trail. The
+        contents of this bio/disk/website (work examples, artwork, etc.) are
+        copyrighted and all rights are reserved. Please do not copy, distribute,
+        and/or modify the works on this website without written permission. Some
+        of the exhibits, work samples, and/or service samples are the
+        proprietary of the organization whose name appears on the documents.
+        Each has granted permission for this product to be used as a
         demonstration of my work.<br />
       </footer>
     </div>
