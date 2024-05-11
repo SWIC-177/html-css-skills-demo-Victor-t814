@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .error {
+    @apply mt-2 scale-y-0 font-semibold text-red-500;
+  }
+  .is-error {
+    @apply scale-y-100 transition-transform;
+  }
+}
