@@ -83,6 +83,7 @@
           method="POST"
         >
           <legend class="text-xl font-bold">Contact Form</legend>
+
           <div>
             <label for="name" class="block">Name</label>
             <input
@@ -92,6 +93,7 @@
               class="w-full border p-2 text-black"
             />
           </div>
+
           <div>
             <label for="email" class="block">Email</label>
             <input
@@ -102,20 +104,25 @@
             />
             <p class="error">Please enter a valid email address</p>
           </div>
-          <label for="phone" class="block">Phone</label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            class="w-full border p-2 text-black"
-          />
 
-          <label for="message" class="block">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            class="w-full border p-2 text-black"
-          ></textarea>
+          <div>
+            <label for="phone" class="block">Phone</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              class="w-full border p-2 text-black"
+            />
+          </div>
+
+          <div>
+            <label for="message" class="block">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              class="w-full border p-2 text-black"
+            ></textarea>
+          </div>
 
           <div class="flex space-x-4">
             <input
