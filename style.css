@@ -6,7 +6,9 @@
   .error {
     @apply mt-2 scale-y-0 font-semibold text-red-500;
   }
+}
+@layer utilities {
   .is-error {
-    @apply scale-y-100 transition-transform;
+    @apply scale-y-100 transition-transform delay-75;
   }
 }
