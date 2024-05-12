@@ -26,15 +26,7 @@ export const ERRORS = [
     id: "message",
     msg: "Please enter a message between 10 and 100 characters",
     validate(val) {
-      return val.length > 10 && val.length < 100;
-    },
-  },
-  {
-    id: "age",
-    msg: "Please enter a valid age between 18 and 120",
-    validate(val) {
-      const age = parseInt(val);
-      return !isNaN(age) && age >= 18 && age <= 120;
+      return val.length > 10 && val.length < 100 && val.includes(" ");
     },
   },
 ];
